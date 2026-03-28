@@ -358,7 +358,7 @@ export default function Home() {
       {/* ── Hero — centered title only ── */}
       <section className="relative z-10 max-w-5xl mx-auto px-5 sm:px-8 pt-10 pb-10 text-center">
         <h1 style={{ fontFamily: "'Poppins', sans-serif" }}
-          className="text-6xl md:text-7xl font-black tracking-[-0.04em] text-white leading-none">
+          className="text-6xl md:text-7xl font-bold tracking-[-0.04em] text-white leading-none">
           Reports &amp; Playbooks
         </h1>
       </section>
@@ -468,7 +468,7 @@ export default function Home() {
       {/* ── More Resources ── */}
       <section className="relative z-10 max-w-5xl mx-auto px-5 sm:px-8 pb-12">
         <h2 style={{ fontFamily: "'Poppins', sans-serif" }}
-          className="text-lg sm:text-2xl font-black tracking-[-0.04em] text-white text-center mb-5 leading-none uppercase">
+          className="text-lg sm:text-2xl font-bold tracking-[-0.04em] text-white text-center mb-5 leading-none uppercase">
           More Resources
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
@@ -505,7 +505,7 @@ export default function Home() {
       {/* ── Trusted By ── */}
       <section className="relative z-10 border-t border-white/6 py-10 overflow-hidden">
         <p style={{ fontFamily: "'Poppins', sans-serif" }}
-          className="text-center text-xl sm:text-2xl font-black tracking-[-0.04em] text-white mb-8 leading-none">
+          className="text-center text-xl sm:text-2xl font-bold tracking-[-0.04em] text-white mb-8 leading-none">
           Trusted by 50+ SaaS startups
         </p>
         <div className="relative overflow-hidden">
