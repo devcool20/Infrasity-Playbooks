@@ -357,8 +357,8 @@ export default function Home() {
 
       {/* ── Hero — centered title only ── */}
       <section className="relative z-10 max-w-5xl mx-auto px-5 sm:px-8 pt-10 pb-10 text-center">
-        <h1 style={{ fontFamily: "'Poppins', system-ui, sans-serif", fontWeight: 700 }}
-          className="text-[clamp(2.5rem,7vw,4rem)] text-white leading-tight tracking-tight">
+        <h1 style={{ fontFamily: "'Poppins', sans-serif" }}
+          className="text-6xl md:text-7xl font-black tracking-[-0.04em] text-white leading-none">
           Reports &amp; Playbooks
         </h1>
       </section>
@@ -430,21 +430,21 @@ export default function Home() {
       {/* ── Subscribe ── */}
       <section id="waitlist" className="relative z-10 max-w-5xl mx-auto px-5 sm:px-8 pb-12">
         <div className="rounded-2xl p-8 sm:p-12 text-center relative overflow-hidden" style={{
-          background: "linear-gradient(135deg, #5848DC 0%, #4A3CCE 40%, #3828B8 100%)",
+          background: "linear-gradient(135deg, #3A24B0 0%, #2E1E8A 50%, #1E0B66 100%)",
         }}>
           <div className="absolute inset-0 pointer-events-none" style={{
             background: "radial-gradient(ellipse 65% 60% at 50% 35%, rgba(200,180,255,0.12) 0%, transparent 65%)",
           }}/>
           <div className="relative z-10">
-            <h2 style={{ fontFamily: "'Poppins', system-ui, sans-serif", fontWeight: 700 }}
+            <h2 style={{ fontFamily: "'Poppins', system-ui, sans-serif", fontWeight: 900 }}
               className="text-2xl sm:text-3xl text-white">
               Subscribe to get new playbooks
             </h2>
             <p className="mt-3 text-purple-200/70 text-sm max-w-sm mx-auto">
               Join 5,000+ developer marketers who get actionable insights delivered to their inbox.
             </p>
-            <a href="#" className="mt-6 inline-block px-8 py-3 rounded-full font-bold text-sm text-white transition-all border border-white/20 hover:bg-white/10"
-              style={{ background: "rgba(255,255,255,0.12)" }}>
+            <a href="#" className="mt-6 inline-block px-8 py-3 rounded-xl font-bold text-sm text-white transition-all border border-white/20 hover:opacity-90 shadow-lg"
+              style={{ background: "linear-gradient(90deg, #6C5CE7 0%, #4834D4 40%, #0984E3 100%)" }}>
               Join the newsletter
             </a>
           </div>
@@ -467,8 +467,8 @@ export default function Home() {
 
       {/* ── More Resources ── */}
       <section className="relative z-10 max-w-5xl mx-auto px-5 sm:px-8 pb-12">
-        <h2 style={{ fontFamily: "'Poppins', system-ui, sans-serif", fontWeight: 700 }}
-          className="text-lg text-white text-center mb-5">
+        <h2 style={{ fontFamily: "'Poppins', sans-serif" }}
+          className="text-lg sm:text-2xl font-black tracking-[-0.04em] text-white text-center mb-5 leading-none uppercase">
           More Resources
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
@@ -504,8 +504,8 @@ export default function Home() {
 
       {/* ── Trusted By ── */}
       <section className="relative z-10 border-t border-white/6 py-10 overflow-hidden">
-        <p style={{ fontFamily: "'Poppins', system-ui, sans-serif", fontWeight: 700 }}
-          className="text-center text-lg text-white mb-8">
+        <p style={{ fontFamily: "'Poppins', sans-serif" }}
+          className="text-center text-xl sm:text-2xl font-black tracking-[-0.04em] text-white mb-8 leading-none">
           Trusted by 50+ SaaS startups
         </p>
         <div className="relative overflow-hidden">
