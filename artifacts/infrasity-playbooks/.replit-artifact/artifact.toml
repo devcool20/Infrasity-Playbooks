@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "Infrasity Playbooks"
+version = "1.0.0"
+id = "artifacts/infrasity-playbooks"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 23886
+
+[services.development]
+run = "pnpm --filter @workspace/infrasity-playbooks run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/infrasity-playbooks", "run", "build" ]
+publicDir = "artifacts/infrasity-playbooks/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "23886"
+BASE_PATH = "/"
